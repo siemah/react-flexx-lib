@@ -1,6 +1,17 @@
 {
-  "name": "react-dayenio-lib",
+  "name": "react-flexx-lib",
   "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "siemah",
+  "keywords": ["react", "flex", "react-flex"],
+  "repository": {
+    "type": "git",
+    "url": "URL_OF_YOUR_REPOSITORY"
+  } 
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
@@ -23,7 +34,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "build": "rm -rf dist temp && NODE_ENV=production babel src/lib --out-dir temp --copy-files --ignore __tests__,spec.js,test.js,spec.ts,test.ts,__snapshots__ && tsc -p tsconfig.tsx.json",
+    "build": "rm -rf dist temp && NODE_ENV=production babel src/lib --out-dir temp --copy-files --ignore __tests__,spec.js,test.js,spec.ts,test.ts,__snapshots__ && tsc -p tsconfig.tsx.json && cp temp/**/*.css dist/**/",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
