@@ -5,3 +5,52 @@
   box-sizing: border-box;
   font-size: 1rem;
 }
+/*
+  all flex props class are named like this:
+  .flex-<name-of-prop>_<value-of-justify-content-prop>
+*/
+.justify-content_start {
+  justify-content: start;
+}
+.justify-content_center {
+  justify-content: center;
+}
+.justify-content_end {
+  justify-content: end;
+}
+.justify-content_flex-start {
+  justify-content: flex-start;
+}
+.justify-content_flex-end {
+  justify-content: flex-end;
+}
+.justify-content_left {
+  justify-content: left;
+}
+.justify-content_right {
+  justify-content: right;
+}
+.justify-content_space-between {
+  justify-content: space-between;
+}
+.justify-content_space-around {
+  justify-content: space-around;
+}
+.justify-content_space-evenly {
+  justify-content: space-evenly;
+}
+.justify-content_stretch {
+  justify-content: stretch;
+}
+.flex-direction_row {
+  flex-direction: row;
+}
+.flex-direction_row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-direction_column {
+  flex-direction: column;
+}
+.flex-direction_column-reverse {
+  flex-direction: column-reverse
+}
