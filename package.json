@@ -10,7 +10,7 @@
   "keywords": ["react", "flex", "react-flex"],
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
+    "url": "https://github.com/siemah/react-flexx-lib"
   } 
   "devDependencies": {
     "@babel/cli": "^7.8.3",
